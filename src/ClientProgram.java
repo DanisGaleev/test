@@ -2,6 +2,7 @@ import com.esotericsoftware.kryonet.Client;
 import com.esotericsoftware.kryonet.Connection;
 import com.esotericsoftware.kryonet.Listener;
 
+import java.io.File;
 import java.util.Date;
 import java.util.Scanner;
 
@@ -20,6 +21,8 @@ public class ClientProgram extends Listener {
     public static void main(String[] args) throws Exception {
         System.out.println("Подключаемся к серверу");
         //
+        File directory = new File("./data");
+        System.out.println(directory.getCanonicalPath());
         client = new Client();
 
         //Регистрируем пакет
