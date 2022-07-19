@@ -1,0 +1,12 @@
+{
+  "ak74": {
+    "name": "ak74",
+    "damage": 100,
+    "distance": 200
+  },
+  "ak103": {
+    "name": "ak103",
+    "damage": 120,
+    "distance": 100
+  }
+}
